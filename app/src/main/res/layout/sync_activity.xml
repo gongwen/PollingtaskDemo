@@ -33,5 +33,11 @@
             android:layout_margin="50dp"
             android:padding="20dp"
             android:text="结束轮询" />
+
+        <Button
+            android:id="@+id/goTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试界面不可见是轮询不进行数据请求" />
     </LinearLayout>
 </ScrollView>

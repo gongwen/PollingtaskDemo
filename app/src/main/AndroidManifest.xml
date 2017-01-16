@@ -25,6 +25,9 @@
         <activity
             android:name=".TestSyncRefreshPoolActivity"
             android:label="轮询方式一"></activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="TestActivity"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.gw.pollingtask;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -54,6 +55,12 @@ public class TestSyncRefreshPoolActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 refreshPool.stopRefresh();
+            }
+        });
+        findViewById(R.id.goTest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TestSyncRefreshPoolActivity.this, TestActivity.class));
             }
         });
 
